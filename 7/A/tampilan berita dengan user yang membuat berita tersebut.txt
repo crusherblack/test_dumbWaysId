@@ -1,0 +1,3 @@
+//Menampilkan seluruh berita yang punya relasi dengan references pada table news yaitu field user_id dengan table user yaitu field id
+
+SELECT * from news join user on news.user_id = user.id

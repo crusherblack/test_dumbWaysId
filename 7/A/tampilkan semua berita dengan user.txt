@@ -1,0 +1,8 @@
+
+//Menampilkan semua berita
+SELECT * from news  
+//Menampilkan semua user
+SELECT * from user
+
+// Note : tidak bisa digabung dengan union krn jumlah kolom beda
+jadi untuk menampilkannya harus satu2
